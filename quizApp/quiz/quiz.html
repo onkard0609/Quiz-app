@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="../common/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../common/css/animate.min.css">
+    <!-- end css link -->
+    
+    <!-- js link -->
+    <script src="../common/js/bootstrap.bundle.min.js"></script>
+    <script src="../common/js/sweetalert.min.js"></script>
+    
+    <!-- TensorFlow.js and Face API.js for Eye Detection -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+
+    <!-- end js link -->
+    
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="main">
+        <h2 class="question-el">Q-1 : What is your name ?</h2>
+        <br>
+        <input type="radio" class="option" id="option-1" value="option-1" name="option">
+        <label for="option-1">My name is just for code.</label>
+        <br><br>
+        <input type="radio" class="option" id="option-2" value="option-2" name="option">
+        <label for="option-2">My name is just for code.</label>
+        <br><br>
+        <input type="radio" class="option" id="option-3" value="option-3" name="option">
+        <label for="option-3">My name is just for code.</label>
+        <br><br>
+        <input type="radio" class="option" id="option-4" value="option-4" name="option">
+        <label for="option-4">My name is just for code.</label>
+        <br><br>
+        <div align="end">
+            <button class="btn next-btn btn-primary">SUBMIT QUESTION</button>
+        </div>
+    </div>
+
+    <script defer src="js/quiz.js"></script>
+
+</body>
+</html>
