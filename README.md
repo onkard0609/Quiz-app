@@ -22,6 +22,33 @@ The system provides student and admin functionality along with monitoring featur
 - Student and examination data management.
 - Result management.
 
+##💻 How to Run the Project Prerequisites: A web browser (Google Chrome or Firefox recommended) Node.js (if using server-side features) or any basic web server for serving the HTML, CSS, and JS files
+
+Steps to Run:
+
+Download the zip file and extract the folder.
+Open the folder in VSCode.
+Open Company.html with live server.
+📝 Features Proctoring Features:
+
+Camera Monitoring: Detects if the camera is on or off(If camera is not on then the test will be submitted).
+
+Mic Noise Detection: Monitors ambient noise levels. If noise exceeds a threshold, a warning is given, and after three warnings, the quiz is automatically submitted.
+
+Tab-Switch Tracking: Prevents users from switching tabs during the exam and monitors if the test window is tampered with.
+
+Single attempt: Keeps track on the attempts Prevents multiple attempts.
+
+Time limit: There is time limit of 30 sec for each question which will be calculated automatically and set.
+
+Quiz Functionality:
+
+Multi-question support with time restrictions.
+
+Ability to skip questions and navigate between them.
+
+A final submission button once all answers are completed.
+
 ## Technologies Used
 
 ### Frontend
